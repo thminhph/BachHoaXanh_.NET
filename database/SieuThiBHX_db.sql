@@ -1,5 +1,4 @@
 
-
 create database SieuThiBHX
 go 
  
@@ -168,8 +167,8 @@ create table TaiKhoan (
  );
  go
 
-<<<<<<< HEAD
-=======
+
+
  --------ndong------------
  --calam--
 ALTER TABLE [LichLam]  WITH CHECK ADD  CONSTRAINT [FK_LichLam_CaLam] FOREIGN KEY([idCaLam])
@@ -226,7 +225,7 @@ ALTER TABLE PhieuNhap CHECK CONSTRAINT [FK_PhieuNhap_NhanVien]
 GO
 
 
->>>>>>> temp1
+
 --------------------------SET FK------------------------
 alter table HoaDon with check add constraint [FK_HoaDon_KhachHang] foreign key ([idKhachHang])
 references [KhachHang]([id])
@@ -274,3 +273,43 @@ REFERENCES [LoaiHang] ([id])
 GO
 ALTER TABLE [SanPham] CHECK CONSTRAINT [FK_SanPham_LoaiHang]
 GO
+
+
+
+------------DuLieuAo-------------
+DELETE FROM TaiKhoan;
+
+SET IDENTITY_INSERT TaiKhoan ON;
+
+INSERT INTO TaiKhoan (id, MaTaiKhoan, TenTaiKhoan, MatKhau, Quyen)
+VALUES 
+    (1, N'admin', N'admin', N'123456', 0),
+    (2, N'user', N'user', N'123456', 1),
+    (3, N'TK001', N'TK001', N'123456', 1),
+    (4, N'TK002', N'TK002', N'123456', 1),
+    (5, N'TK003', N'TK003', N'123456', 1),
+    (6, N'TK004', N'TK004', N'123456', 1),
+    (7, N'TK005', N'TK005', N'123456', 1),
+    (8, N'TK006', N'TK006', N'123456', 1),
+    (9, N'TK007', N'TK007', N'123456', 1),
+    (10, N'TK008', N'TK008', N'123456', 1),
+    (11, N'TK009', N'TK009', N'123456', 1),
+    (12, N'TK010', N'TK010', N'123456', 1);
+
+SET IDENTITY_INSERT TaiKhoan OFF;
+
+
+
+select * from NhaCungCap
+INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, DiaChi) 
+VALUES 
+(N'NCC01', N'LG', N'0123456789', N'23/7 Võ V?n Ngân'),
+(N'NCC02', N'LeNoVo', N'0123456789', N'7/11 Hoàng Di?u 2'),
+(N'NCC03', N'SamSung', N'0123456789', N'50/7 Tr?n Phú'),
+(N'NCC04', N'Dell', N'0123456789', N'16 ??ng V?n Bi'),
+(N'NCC05', N'CellsPhone', N'0123456789', N'16/3 Võ Nguên Giáp'),
+(N'NCC06', N'Family Mart', N'0123456789', N'25/16 ???ng s? 25'),
+(N'NCC07', N'GS25', N'0123456789', N'29/16 Hi?p Bình'),
+(N'NCC08', N'Xiaomi', N'0123456789', N'12/3 D2'),
+(N'NCC09', N'Vissan', N'0123456789', N'27 ???ng 16'),
+(N'NCC10', N'S?ch', N'0123456789', N'2 ???ng 21');
