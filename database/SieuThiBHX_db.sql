@@ -7,6 +7,7 @@ go
 set dateformat dmy;
 go
 
+--------------------------CREATE TABLE------------------------
 create table HoaDon(
 	id int identity(1,1) not null,
 	maHD varchar(50),
@@ -59,4 +60,127 @@ create table SanPham(
 	idNhaCungCap int,
 	primary key(id)
 );
+ 
+ create table CaLam(
+ id int identity(1,1) not null,
+ MaCaLam varchar (30) ,
+ TenCaLam varchar (100),
+ GioBatDau nvarchar (100),
+ GioKetThuc nvarchar (100)
+ primary key (id) );
 
+ create table LichLam(
+ id int identity(1,1) not null,
+ MaLichLam nvarchar (30) not null,
+ NgayLam datetime null,
+ idNhanVien int null,
+ idCaLam int null
+ primary key (id));
+
+
+ create table NhanVien(
+ id int identity(1,1) not null,
+ MaNhanVien nvarchar (30) not null,
+ TenNhanVien nvarchar(100),
+ SoDienThoai varchar(10),
+ DiaChi nvarchar(100),
+ idLoaiNhanVien int,
+ idTaiKhoan int
+ primary key (id));
+ 
+ create table LoaiNhanVien(
+ id int identity(1,1) not null,
+ MaLoaiNhanVien varchar(30),
+ TenLoaiNhanVien nvarchar(100),
+  primary key (id));
+
+  create table BangLuong(
+   id int identity(1,1) not null,
+   MaBangLuong varchar(30),
+   ThangNam datetime null,
+   TongGioCong float null,
+   Luong float null,
+   idNhanVien int
+   primary key (id));
+
+   create table ChiTietBangLuong(
+	id int identity(1,1) not null,
+	MaChiTietBangLuong varchar(30),
+	SoGioCongThucTe float null,
+	NgayLam datetime null,
+	idBangLuong int ,
+	idLichLam int
+	primary key (id));
+
+create table TaiKhoan (
+ id int IDENTITY (1,1) NOT NULL,
+ MaTaiKhoan varchar (30),
+ TenTaiKhoan varchar (100),
+ MatKhau varchar (100),
+ Quyen int,
+ primary key (id)
+ );
+
+ create table NhaCungCap(
+ id int IDENTITY (1,1) NOT NULL,
+ MaNhaCungCap varchar (30),
+ TenNhaCungCap nvarchar (100),
+ SoDienThoai varchar (30),
+ DiaChi nvarchar(100),
+ primary key (id)
+ );
+
+ create table PhieuNhap(
+ id int IDENTITY (1,1) NOT NULL,
+ MaPhieuNhap varchar (30),
+ NgayNhap datetime,
+ ThanhTien float,
+ idNhanVien int,
+ primary key (id)
+ );
+
+ create table ChiTietPhieuNhap(
+ id int IDENTITY (1,1) NOT NULL,
+ SoLuong int,
+ DonGia float,
+ idPhieuNhap int,
+ idSanPham int,
+ primary key (id)
+ );
+
+ create table KhuyenMai(
+  id int IDENTITY (1,1) NOT NULL,
+  MaKhuyenMai varchar (30),
+  TenKhuyenMai nvarchar (100),
+  GiaTri float,
+  primary key (id)
+ );
+
+ create table ChiNhanh(
+  id int IDENTITY (1,1) NOT NULL,
+  MaChiNhanh varchar(30),
+  TenChiNhanh nvarchar(100),
+  DiaChi nvarchar (100),
+  SoDienThoai varchar(10),
+  primary key (id)
+ );
+ go
+
+--------------------------SET FK------------------------
+alter table HoaDon with check add constraint [FK_HoaDon_KhachHang] foreign key ([idKhachHang])
+references [KhachHang]([id])
+go
+alter table HoaDon check constraint [FK_HoaDon_KhachHang]
+go
+
+ALTER TABLE HoaDon  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_KhuyenMai] FOREIGN KEY([idKhuyenMai])
+REFERENCES [KhuyenMai] ([id])
+GO
+ALTER TABLE HoaDon CHECK CONSTRAINT [FK_HoaDon_KhuyenMai]
+GO
+
+ALTER TABLE HoaDon  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_NhanVien] FOREIGN KEY([idNhanVien])
+REFERENCES [NhanVien] ([id])
+GO
+ALTER TABLE [HoaDon] CHECK CONSTRAINT [FK_HoaDon_NhanVien]
+GO
