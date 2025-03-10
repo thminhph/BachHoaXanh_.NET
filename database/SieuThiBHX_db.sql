@@ -1,4 +1,4 @@
-
+﻿
 create database SieuThiBHX
 go 
  
@@ -303,13 +303,13 @@ SET IDENTITY_INSERT TaiKhoan OFF;
 select * from NhaCungCap
 INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, DiaChi) 
 VALUES 
-(N'NCC01', N'LG', N'0123456789', N'23/7 V� V?n Ng�n'),
-(N'NCC02', N'LeNoVo', N'0123456789', N'7/11 Ho�ng Di?u 2'),
-(N'NCC03', N'SamSung', N'0123456789', N'50/7 Tr?n Ph�'),
-(N'NCC04', N'Dell', N'0123456789', N'16 ??ng V?n Bi'),
-(N'NCC05', N'CellsPhone', N'0123456789', N'16/3 V� Ngu�n Gi�p'),
-(N'NCC06', N'Family Mart', N'0123456789', N'25/16 ???ng s? 25'),
-(N'NCC07', N'GS25', N'0123456789', N'29/16 Hi?p B�nh'),
+(N'NCC01', N'LG', N'0123456789', N'23/7 Võ Văn Ngân'),
+(N'NCC02', N'LeNoVo', N'0123456789', N'7/11 Hoàng Diệu 2'),
+(N'NCC03', N'SamSung', N'0123456789', N'50/7 Trần Phú'),
+(N'NCC04', N'Dell', N'0123456789', N'16 Đặng Văn Bi'),
+(N'NCC05', N'CellsPhone', N'0123456789', N'16/3 Võ Nguên Giáp'),
+(N'NCC06', N'Family Mart', N'0123456789', N'25/16 đường số 25'),
+(N'NCC07', N'GS25', N'0123456789', N'29/16 Hiệp Bình'),
 (N'NCC08', N'Xiaomi', N'0123456789', N'12/3 D2'),
-(N'NCC09', N'Vissan', N'0123456789', N'27 ???ng 16'),
-(N'NCC10', N'S?ch', N'0123456789', N'2 ???ng 21');
+(N'NCC09', N'Vissan', N'0123456789', N'27 Đường 16'),
+(N'NCC10', N'Sạch', N'0123456789', N'2 Đường 21');
