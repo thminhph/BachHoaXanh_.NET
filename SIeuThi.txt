@@ -1,19 +1,19 @@
-HoaDon
-ChiTietHoaDon
-
-KhachHang
-TaiKhoan
 
 CaLam
+LichLam
 NhanVien
 LoaiNhanVien
 BangLuong
 ChiTietBangLuong
 
+HoaDon
+ChiTietHoaDon
 KhoHang
 LoaiHang
+KhachHang
 SanPham
 
+TaiKhoan
 NhaCungCap
 PhieuNhap
 ChiTietPhieuNhap
