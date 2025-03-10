@@ -60,7 +60,7 @@ create table SanPham(
 	primary key(id)
 );
 
-go
+
  
  create table CaLam(
  id int identity(1,1) not null,
@@ -68,7 +68,7 @@ go
  TenCaLam varchar (100),
  GioBatDau nvarchar (100),
  GioKetThuc nvarchar (100)
- primary key (MaCaLam) );
+ primary key (id) );
 
  go
 
@@ -78,7 +78,7 @@ go
  NgayLam datetime null,
  idNhanVien int null,
  idCaLam int null
- primary key (MaLichLam));
+ primary key (id));
 
  go
  create table NhanVien(
@@ -89,7 +89,7 @@ go
  DiaChi nvarchar(100),
  idLoaiNhanVien int,
  idTaiKhoan int
- primary key (MaNhanVien));
+ primary key (id));
 
  go
  
@@ -97,7 +97,7 @@ go
  id int identity(1,1) not null,
  MaLoaiNhanVien varchar(30),
  TenLoaiNhanVien nvarchar(100),
-  primary key (MaLoaiNhanVien));
+  primary key (id));
 
   go
 
@@ -108,7 +108,7 @@ go
    TongGioCong float null,
    Luong float null,
    idNhanVien int
-   primary key (MaBangLuong));
+   primary key (id));
    
    go
 
@@ -119,11 +119,50 @@ go
 	NgayLam datetime null,
 	idBangLuong int ,
 	idLichLam int
-	primary key (MaChiTietBangLuong));
+	primary key (id));
 
 
 
 
 
+
+
+
+--------------------------SET FK------------------------
+alter table HoaDon with check add constraint [FK_HoaDon_KhachHang] foreign key ([idKhachHang])
+references [KhachHang]([id])
+go
+alter table HoaDon check constraint [FK_HoaDon_KhachHang]
+go
+
+ALTER TABLE HoaDon  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_KhuyenMai] FOREIGN KEY([idKhuyenMai])
+REFERENCES [KhuyenMai] ([id])
+GO
+ALTER TABLE HoaDon CHECK CONSTRAINT [FK_HoaDon_KhuyenMai]
+GO
+
+ALTER TABLE HoaDon  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_NhanVien] FOREIGN KEY([idNhanVien])
+REFERENCES [NhanVien] ([id])
+GO
+ALTER TABLE [HoaDon] CHECK CONSTRAINT [FK_HoaDon_NhanVien]
+GO
+----------------------FK ChiTietPhieuNhap-------------------------
+ALTER TABLE ChiTietPhieuNhap  WITH CHECK ADD  CONSTRAINT [FK_ChiTietPhieuNhap_PhieuNhap] FOREIGN KEY([idPhieuNhap])
+REFERENCES PhieuNhap ([id])
+GO
+ALTER TABLE ChiTietPhieuNhap CHECK CONSTRAINT [FK_ChiTietPhieuNhap_PhieuNhap]
+GO
+ALTER TABLE ChiTietPhieuNhap  WITH CHECK ADD  CONSTRAINT [FK_ChiTietPhieuNhap_SanPham] FOREIGN KEY([idSanPham])
+REFERENCES SanPham ([id])
+GO
+ALTER TABLE ChiTietPhieuNhap CHECK CONSTRAINT [FK_ChiTietPhieuNhap_SanPham]
+GO
+
+----------------------FK PhieuNHap-------------------------
+ALTER TABLE PhieuNhap  WITH CHECK ADD  CONSTRAINT [FK_PhieuNhap_NhanVien] FOREIGN KEY([idNhanVien])
+REFERENCES NhanVien ([id])
+GO
+ALTER TABLE PhieuNhap CHECK CONSTRAINT [FK_PhieuNhap_NhanVien]
+GO
 
 
