@@ -215,4 +215,3 @@ REFERENCES [LoaiHang] ([id])
 GO
 ALTER TABLE [SanPham] CHECK CONSTRAINT [FK_SanPham_LoaiHang]
 GO
-
