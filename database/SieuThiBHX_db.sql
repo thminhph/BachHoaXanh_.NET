@@ -184,24 +184,3 @@ REFERENCES [NhanVien] ([id])
 GO
 ALTER TABLE [HoaDon] CHECK CONSTRAINT [FK_HoaDon_NhanVien]
 GO
-----------------------FK ChiTietPhieuNhap-------------------------
-ALTER TABLE ChiTietPhieuNhap  WITH CHECK ADD  CONSTRAINT [FK_ChiTietPhieuNhap_PhieuNhap] FOREIGN KEY([idPhieuNhap])
-REFERENCES PhieuNhap ([id])
-GO
-ALTER TABLE ChiTietPhieuNhap CHECK CONSTRAINT [FK_ChiTietPhieuNhap_PhieuNhap]
-GO
-ALTER TABLE ChiTietPhieuNhap  WITH CHECK ADD  CONSTRAINT [FK_ChiTietPhieuNhap_SanPham] FOREIGN KEY([idSanPham])
-REFERENCES SanPham ([id])
-GO
-ALTER TABLE ChiTietPhieuNhap CHECK CONSTRAINT [FK_ChiTietPhieuNhap_SanPham]
-GO
-
-----------------------FK PhieuNHap-------------------------
-ALTER TABLE PhieuNhap  WITH CHECK ADD  CONSTRAINT [FK_PhieuNhap_NhanVien] FOREIGN KEY([idNhanVien])
-REFERENCES NhanVien ([id])
-GO
-ALTER TABLE PhieuNhap CHECK CONSTRAINT [FK_PhieuNhap_NhanVien]
-GO
-
-
-
