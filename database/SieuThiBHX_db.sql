@@ -1,6 +1,6 @@
 create database SieuThiBHX
 go 
-
+ 
 use SieuThiBHX
 go
 
@@ -183,4 +183,32 @@ ALTER TABLE HoaDon  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_NhanVien] FOREIGN KEY(
 REFERENCES [NhanVien] ([id])
 GO
 ALTER TABLE [HoaDon] CHECK CONSTRAINT [FK_HoaDon_NhanVien]
+GO
+
+ALTER TABLE ChiTietHoaDon  WITH CHECK ADD  CONSTRAINT [FK_ChiTietHoaDon_HoaDon] FOREIGN KEY([idHoaDon])
+REFERENCES [HoaDon]([id])
+GO
+ALTER TABLE ChiTietHoaDon CHECK CONSTRAINT [FK_ChiTietHoaDon_HoaDon]
+GO
+ALTER TABLE ChiTietHoaDon WITH CHECK ADD  CONSTRAINT [FK_ChiTietHoaDon_SanPham] FOREIGN KEY([idSanPham])
+REFERENCES [SanPham] ([id])
+GO
+ALTER TABLE [ChiTietHoaDon] CHECK CONSTRAINT [FK_ChiTietHoaDon_SanPham]
+GO
+
+ALTER TABLE KhoHang  WITH CHECK ADD  CONSTRAINT [FK_KhoHang_SanPham] FOREIGN KEY([idSanPham])
+REFERENCES [SanPham] ([id])
+GO
+ALTER TABLE [KhoHang] CHECK CONSTRAINT [FK_KhoHang_SanPham]
+GO
+
+ALTER TABLE [SanPham]  WITH CHECK ADD  CONSTRAINT [FK_SanPham_NhaCungCap] FOREIGN KEY([idNhaCungCap])
+REFERENCES [NhaCungCap] ([id])
+GO
+ALTER TABLE [SanPham] CHECK CONSTRAINT [FK_SanPham_NhaCungCap]
+GO
+ALTER TABLE [SanPham]  WITH CHECK ADD  CONSTRAINT [FK_SanPham_NhomHang] FOREIGN KEY([idLoaiHang])
+REFERENCES [LoaiHang] ([id])
+GO
+ALTER TABLE [SanPham] CHECK CONSTRAINT [FK_SanPham_NhomHang]
 GO
