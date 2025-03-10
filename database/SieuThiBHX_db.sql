@@ -187,6 +187,7 @@ GO
 ALTER TABLE [HoaDon] CHECK CONSTRAINT [FK_HoaDon_NhanVien]
 GO
 
+
 ALTER TABLE ChiTietHoaDon  WITH CHECK ADD  CONSTRAINT [FK_ChiTietHoaDon_HoaDon] FOREIGN KEY([idHoaDon])
 REFERENCES [HoaDon]([id])
 GO
@@ -214,3 +215,5 @@ REFERENCES [LoaiHang] ([id])
 GO
 ALTER TABLE [SanPham] CHECK CONSTRAINT [FK_SanPham_LoaiHang]
 GO
+=======
+>>>>>>> parent of 3d68b83 (update file)
