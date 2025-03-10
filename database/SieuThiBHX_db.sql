@@ -215,5 +215,4 @@ REFERENCES [LoaiHang] ([id])
 GO
 ALTER TABLE [SanPham] CHECK CONSTRAINT [FK_SanPham_LoaiHang]
 GO
-=======
->>>>>>> parent of 3d68b83 (update file)
+
