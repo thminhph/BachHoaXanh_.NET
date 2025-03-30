@@ -300,7 +300,6 @@ SET IDENTITY_INSERT TaiKhoan OFF;
 
 
 
-select * from NhaCungCap
 INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, DiaChi) 
 VALUES 
 (N'NCC01', N'LG', N'0123456789', N'23/7 Võ Văn Ngân'),
@@ -313,3 +312,42 @@ VALUES
 (N'NCC08', N'Xiaomi', N'0123456789', N'12/3 D2'),
 (N'NCC09', N'Vissan', N'0123456789', N'27 Đường 16'),
 (N'NCC10', N'Sạch', N'0123456789', N'2 Đường 21');
+
+
+-- Thêm dữ liệu vào bảng PhieuNhap
+INSERT INTO PhieuNhap (MaPhieuNhap, NgayNhap, ThanhTien, idNhanVien) VALUES
+('PN001', '2024-03-01 10:00:00', 500000, 1),
+('PN002', '2024-03-05 12:30:00', 750000, 2),
+('PN003', '2024-03-10 15:45:00', 1200000, 3),
+('PN004', '2024-03-15 09:20:00', 950000, 4),
+('PN005', '2024-03-20 14:10:00', 1100000, 5),
+('PN006', '2024-03-25 16:50:00', 870000, 6),
+('PN007', '2024-03-30 18:30:00', 1340000, 7);
+
+-- Thêm dữ liệu vào bảng ChiTietPhieuNhap
+INSERT INTO ChiTietPhieuNhap (SoLuong, DonGia, idPhieuNhap, idSanPham) VALUES
+(10, 50000, 1, 101),
+(5, 100000, 1, 102),
+(8, 75000, 2, 103),
+(12, 60000, 3, 104),
+(20, 55000, 4, 105),
+(15, 65000, 5, 106),
+(25, 70000, 6, 107),
+(18, 80000, 7, 108);
+
+-- Thêm dữ liệu vào bảng KhuyenMai
+INSERT INTO KhuyenMai (MaKhuyenMai, TenKhuyenMai, GiaTri) VALUES
+('KM001', N'Giảm giá 10%', 10),
+('KM002', N'Giảm giá 20%', 20),
+('KM003', N'Mua 1 tặng 1', 50),
+('KM004', N'Giảm giá 15%', 15),
+('KM005', N'Giảm giá 30%', 30),
+('KM006', N'Khuyến mãi đặc biệt', 40);
+
+-- Thêm dữ liệu vào bảng ChiNhanh
+INSERT INTO ChiNhanh (MaChiNhanh, TenChiNhanh, DiaChi, SoDienThoai) VALUES
+('CN001', N'Chi nhánh Hà Nội', N'123 Đường A, Hà Nội', '0123456789'),
+('CN002', N'Chi nhánh Hồ Chí Minh', N'456 Đường B, TP.HCM', '0987654321'),
+('CN003', N'Chi nhánh Đà Nẵng', N'789 Đường C, Đà Nẵng', '0345678912'),
+('CN004', N'Chi nhánh Hải Phòng', N'321 Đường D, Hải Phòng', '0567891234'),
+('CN005', N'Chi nhánh Cần Thơ', N'654 Đường E, Cần Thơ', '0678912345');
