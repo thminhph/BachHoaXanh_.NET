@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SieuThiBHX
 {
-    public partial class Form1 : Form
+    public partial class frmCaLam : Form
     {
-        public Form1()
+        public frmCaLam()
         {
             InitializeComponent();
+        }
+
+        private void guna2GroupBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
