@@ -1,7 +1,7 @@
-﻿
+
 create database SieuThiBHX
-go 
- 
+go
+
 use SieuThiBHX
 go
 
@@ -246,6 +246,7 @@ ALTER TABLE [HoaDon] CHECK CONSTRAINT [FK_HoaDon_NhanVien]
 GO
 
 
+
 ALTER TABLE ChiTietHoaDon  WITH CHECK ADD  CONSTRAINT [FK_ChiTietHoaDon_HoaDon] FOREIGN KEY([idHoaDon])
 REFERENCES [HoaDon]([id])
 GO
@@ -351,3 +352,51 @@ INSERT INTO ChiNhanh (MaChiNhanh, TenChiNhanh, DiaChi, SoDienThoai) VALUES
 ('CN003', N'Chi nhánh Đà Nẵng', N'789 Đường C, Đà Nẵng', '0345678912'),
 ('CN004', N'Chi nhánh Hải Phòng', N'321 Đường D, Hải Phòng', '0567891234'),
 ('CN005', N'Chi nhánh Cần Thơ', N'654 Đường E, Cần Thơ', '0678912345');
+
+-------DuLieu--------
+----ndong-----
+INSERT INTO CaLam (MaCaLam, TenCaLam, GioBatDau, GioKetThuc)  
+VALUES  
+('C1', N'Ca sáng', N'07:00', N'12:00'),  
+('C2', N'Ca chiều', N'13:00', N'18:00'),  
+('C3', N'Ca tối', N'19:00', N'23:00');
+go
+INSERT INTO LoaiNhanVien (MaLoaiNhanVien, TenLoaiNhanVien)  
+VALUES  
+('LNV1', N'Nhân viên bán hàng'),  
+('LNV2', N'Nhân viên kho'),  
+('LNV3', N'Quản lý');
+go
+INSERT INTO NhanVien (MaNhanVien, TenNhanVien, SoDienThoai, DiaChi, idLoaiNhanVien, idTaiKhoan)  
+VALUES  
+('NV001', N'Nguyễn Văn A', '0987654321', N'Hà Nội', 1, 1),  
+('NV002', N'Trần Thị B', '0971234567', N'Hồ Chí Minh', 2, 2),  
+('NV003', N'Phạm Văn C', '0904567890', N'Đà Nẵng', 3, 3),
+('NV004', N'Võ Nhựt Đồng', '0987654321', N'Hà Nội', 1, 1),  
+('NV005', N'Phạm Thế Minh', '0971234567', N'Hồ Chí Minh', 2, 2),  
+('NV006', N'Huỳnh Minh Trọng', '0904567890', N'Đà Nẵng', 3, 3);
+
+go
+INSERT INTO LichLam (MaLichLam, NgayLam, idNhanVien, idCaLam)  
+VALUES  
+('LL001', '2024-03-10', 1, 1),  
+('LL002', '2024-03-10', 2, 2),  
+('LL003', '2024-03-10', 3, 3);
+go
+INSERT INTO BangLuong (MaBangLuong, ThangNam, TongGioCong, Luong, idNhanVien)  
+VALUES  
+('BL001', '2024-03-01', 160, 8000000, 1),  
+('BL002', '2024-03-01', 150, 7500000, 2),  
+('BL003', '2024-03-01', 140, 7000000, 3);
+go
+INSERT INTO ChiTietBangLuong (MaChiTietBangLuong, SoGioCongThucTe, NgayLam, idBangLuong, idLichLam)  
+VALUES  
+('CTBL001', 8, '2024-03-10', 1, 1),  
+('CTBL002', 7.5, '2024-03-10', 2, 2),  
+('CTBL003', 7, '2024-03-10', 3, 3);
+go
+
+
+
+
+
