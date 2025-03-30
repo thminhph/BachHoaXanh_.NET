@@ -301,7 +301,7 @@ SET IDENTITY_INSERT TaiKhoan OFF;
 
 
 
-INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, DiaChi) 
+INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, Dia	Chi) 
 VALUES 
 (N'NCC01', N'LG', N'0123456789', N'23/7 Võ Văn Ngân'),
 (N'NCC02', N'LeNoVo', N'0123456789', N'7/11 Hoàng Diệu 2'),
@@ -317,13 +317,13 @@ VALUES
 
 -- Thêm dữ liệu vào bảng PhieuNhap
 INSERT INTO PhieuNhap (MaPhieuNhap, NgayNhap, ThanhTien, idNhanVien) VALUES
-('PN001', '2024-03-01 10:00:00', 500000, 1),
-('PN002', '2024-03-05 12:30:00', 750000, 2),
-('PN003', '2024-03-10 15:45:00', 1200000, 3),
-('PN004', '2024-03-15 09:20:00', 950000, 4),
-('PN005', '2024-03-20 14:10:00', 1100000, 5),
-('PN006', '2024-03-25 16:50:00', 870000, 6),
-('PN007', '2024-03-30 18:30:00', 1340000, 7);
+('PN001', '01-03-2024 10:00:00', 500000, 1),
+('PN002', '01-03-2024 12:30:00', 750000, 2),
+('PN003', '01-03-2024 15:45:00', 1200000, 3),
+('PN004', '01-03-2024 09:20:00', 950000, 4),
+('PN005', '01-03-2024 14:10:00', 1100000, 5),
+('PN006', '01-03-2024 16:50:00', 870000, 6),
+('PN007', '01-03-2024 18:30:00', 1340000, 6);
 
 -- Thêm dữ liệu vào bảng ChiTietPhieuNhap
 INSERT INTO ChiTietPhieuNhap (SoLuong, DonGia, idPhieuNhap, idSanPham) VALUES

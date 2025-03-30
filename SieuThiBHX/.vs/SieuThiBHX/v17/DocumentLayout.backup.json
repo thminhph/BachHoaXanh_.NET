@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\THE MINH\\Desktop\\CN.NET\\SieuThiBHX\\",
+  "WorkspaceRootPath": "E:\\PROJECT UD\\SieuThiBHX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|c:\\users\\the minh\\desktop\\cn.net\\sieuthibhx\\sieuthibhx\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|solutionrelative:sieuthibhx\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|e:\\project ud\\sieuthibhx\\sieuthibhx\\frmchitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|solutionrelative:sieuthibhx\\frmchitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|e:\\project ud\\sieuthibhx\\sieuthibhx\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|solutionrelative:sieuthibhx\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|e:\\project ud\\sieuthibhx\\sieuthibhx\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|solutionrelative:sieuthibhx\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|e:\\project ud\\sieuthibhx\\sieuthibhx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{718FFAC2-DA83-4ACC-90E1-791890AD1985}|SieuThiBHX\\SieuThiBHX.csproj|solutionrelative:sieuthibhx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +26,57 @@
       "DocumentGroups": [
         {
           "DockedHeight": 272,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\CN.NET\\SieuThiBHX\\SieuThiBHX\\Form1.cs",
-              "RelativeDocumentMoniker": "SieuThiBHX\\Form1.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\CN.NET\\SieuThiBHX\\SieuThiBHX\\Form1.cs [Design]",
-              "RelativeToolTip": "SieuThiBHX\\Form1.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "frmNhaCungCap.cs",
+              "DocumentMoniker": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\frmNhaCungCap.cs",
+              "RelativeDocumentMoniker": "SieuThiBHX\\frmNhaCungCap.cs",
+              "ToolTip": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\frmNhaCungCap.cs",
+              "RelativeToolTip": "SieuThiBHX\\frmNhaCungCap.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T02:59:02.312Z",
+              "WhenOpened": "2025-03-30T05:37:02.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmChiTietPhieuNhap.cs [Design]",
+              "DocumentMoniker": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\frmChiTietPhieuNhap.cs",
+              "RelativeDocumentMoniker": "SieuThiBHX\\frmChiTietPhieuNhap.cs",
+              "ToolTip": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\frmChiTietPhieuNhap.cs [Design]",
+              "RelativeToolTip": "SieuThiBHX\\frmChiTietPhieuNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T05:35:06.415Z",
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\Program.cs",
+              "RelativeDocumentMoniker": "SieuThiBHX\\Program.cs",
+              "ToolTip": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\Program.cs",
+              "RelativeToolTip": "SieuThiBHX\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T05:21:42.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmNhaCungCap.cs [Design]",
+              "DocumentMoniker": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\frmNhaCungCap.cs",
+              "RelativeDocumentMoniker": "SieuThiBHX\\frmNhaCungCap.cs",
+              "ToolTip": "E:\\PROJECT UD\\SieuThiBHX\\SieuThiBHX\\frmNhaCungCap.cs [Design]",
+              "RelativeToolTip": "SieuThiBHX\\frmNhaCungCap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T05:13:17.242Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
