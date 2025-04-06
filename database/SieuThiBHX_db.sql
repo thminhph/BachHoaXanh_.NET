@@ -301,7 +301,7 @@ SET IDENTITY_INSERT TaiKhoan OFF;
 
 
 
-INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, Dia	Chi) 
+INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, DiaChi) 
 VALUES 
 (N'NCC01', N'LG', N'0123456789', N'23/7 Võ Văn Ngân'),
 (N'NCC02', N'LeNoVo', N'0123456789', N'7/11 Hoàng Diệu 2'),
