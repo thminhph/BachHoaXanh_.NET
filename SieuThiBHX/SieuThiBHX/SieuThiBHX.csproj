@@ -58,11 +58,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Trong\frmChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmChiNhanh.Designer.cs">
+      <DependentUpon>frmChiNhanh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Trong\frmChiTietPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Trong\frmChiTietPhieuNhap.Designer.cs">
       <DependentUpon>frmChiTietPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trong\frmKhuyenMai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmKhuyenMai.Designer.cs">
+      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
     </Compile>
     <Compile Include="Trong\frmNhaCungCap.cs">
       <SubType>Form</SubType>
@@ -87,8 +99,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Trong\frmChiNhanh.resx">
+      <DependentUpon>frmChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Trong\frmChiTietPhieuNhap.resx">
       <DependentUpon>frmChiTietPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trong\frmKhuyenMai.resx">
+      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trong\frmNhaCungCap.resx">
       <DependentUpon>frmNhaCungCap.cs</DependentUpon>
