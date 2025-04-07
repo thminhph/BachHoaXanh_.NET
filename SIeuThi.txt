@@ -8,10 +8,11 @@ ChiTietBangLuong
 
 HoaDon
 ChiTietHoaDon
+SanPham
 KhoHang
 LoaiHang
 KhachHang
-SanPham
+
 
 TaiKhoan
 NhaCungCap
