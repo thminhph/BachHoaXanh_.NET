@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace SieuThiBHX
 {
-    public partial class frm_KhoHang : Form
+    public partial class frmCaLam : Form
     {
-        public frm_KhoHang()
+        public frmCaLam()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void guna2GroupBox3_Click(object sender, EventArgs e)
         {
 
         }

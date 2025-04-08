@@ -8,18 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SieuThiBHX
+namespace SieuThiBHX.NhutDong
 {
-    public partial class frm_KhoHang : Form
+    public partial class frmBangLuong : Form
     {
-        public frm_KhoHang()
+        public frmBangLuong()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmBangLuong_Load(object sender, EventArgs e)
         {
 
         }
+
+        
     }
 }
