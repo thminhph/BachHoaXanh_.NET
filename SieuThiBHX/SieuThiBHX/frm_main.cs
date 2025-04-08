@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using SieuThiBHX.Trong;
 namespace SieuThiBHX
 {
     public partial class frm_main : Form
@@ -125,6 +125,90 @@ namespace SieuThiBHX
             else
             {
                 ActForm("frm_SanPham");
+            }
+        }
+
+        private void chiNhánhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!CheckFormExit("frmChiNhanh"))
+            {
+                frmChiNhanh f = new frmChiNhanh();
+                f.MdiParent = this;
+                f.Show();
+            }
+            else
+            {
+                ActForm("frmChiNhanh");
+            }
+        }
+
+        private void chiTiếtPhiếuNhậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!CheckFormExit("frmChiTietPhieuNhap"))
+            {
+                frmChiTietPhieuNhap f = new frmChiTietPhieuNhap();
+                f.MdiParent = this;
+                f.Show();
+            }
+            else
+            {
+                ActForm("frmChiTietPhieuNhap");
+            }
+        }
+
+        private void khuyếnMãiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!CheckFormExit("frmKhuyenMai"))
+            {
+                frmKhuyenMai f = new frmKhuyenMai();
+                f.MdiParent = this;
+                f.Show();
+            }
+            else
+            {
+                ActForm("frmKhuyenMai");
+            }
+        }
+
+        private void nhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!CheckFormExit("frmNhaCungCap"))
+            {
+                frmNhaCungCap f = new frmNhaCungCap();
+                f.MdiParent = this;
+                f.Show();
+            }
+            else
+            {
+                ActForm("frmNhaCungCap");
+            }
+        }
+
+        private void phiếuNhậpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!CheckFormExit("frmPhieuNhap"))
+            {
+                frmPhieuNhap f = new frmPhieuNhap();
+                f.MdiParent = this;
+                f.Show();
+            }
+            else
+            {
+                ActForm("frmPhieuNhap");
+            }
+        }
+
+        private void tàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!CheckFormExit("frmTaiKhoan"))
+            {
+                frmTaiKhoan f = new frmTaiKhoan();
+                f.MdiParent = this;
+                f.Show();
+            }
+            else
+            {
+                ActForm("frmTaiKhoan");
             }
         }
     }
