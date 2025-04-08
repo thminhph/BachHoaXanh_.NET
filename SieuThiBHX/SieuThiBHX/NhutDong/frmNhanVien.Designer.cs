@@ -123,7 +123,7 @@
             // 
             this.guna2GroupBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2GroupBox3.Controls.Add(this.tableFields);
-            this.guna2GroupBox3.CustomBorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GroupBox3.CustomBorderColor = System.Drawing.Color.MediumSeaGreen;
             this.guna2GroupBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GroupBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -167,7 +167,7 @@
             // cboMaTaiKhoan
             // 
             this.cboMaTaiKhoan.BackColor = System.Drawing.Color.Transparent;
-            this.cboMaTaiKhoan.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.cboMaTaiKhoan.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.cboMaTaiKhoan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cboMaTaiKhoan.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cboMaTaiKhoan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -185,7 +185,7 @@
             // cboMaLoaiNhanVien
             // 
             this.cboMaLoaiNhanVien.BackColor = System.Drawing.Color.Transparent;
-            this.cboMaLoaiNhanVien.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.cboMaLoaiNhanVien.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.cboMaLoaiNhanVien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cboMaLoaiNhanVien.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cboMaLoaiNhanVien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -202,7 +202,7 @@
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.txtDiaChi.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.txtDiaChi.BorderRadius = 2;
             this.txtDiaChi.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiaChi.DefaultText = "";
@@ -226,7 +226,7 @@
             // 
             // txtSoDienThoai
             // 
-            this.txtSoDienThoai.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.txtSoDienThoai.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.txtSoDienThoai.BorderRadius = 2;
             this.txtSoDienThoai.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSoDienThoai.DefaultText = "";
@@ -306,7 +306,7 @@
             // 
             // txtTenNhanVien
             // 
-            this.txtTenNhanVien.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.txtTenNhanVien.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.txtTenNhanVien.BorderRadius = 2;
             this.txtTenNhanVien.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTenNhanVien.DefaultText = "";
@@ -346,7 +346,7 @@
             // 
             this.guna2GroupBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2GroupBox1.Controls.Add(this.dgvNV);
-            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.MediumSeaGreen;
             this.guna2GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GroupBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
