@@ -95,8 +95,45 @@
     <Compile Include="frm_SanPham.Designer.cs">
       <DependentUpon>frm_SanPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trong\frmChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmChiNhanh.Designer.cs">
+      <DependentUpon>frmChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trong\frmChiTietPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmChiTietPhieuNhap.Designer.cs">
+      <DependentUpon>frmChiTietPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trong\frmKhuyenMai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmKhuyenMai.Designer.cs">
+      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trong\frmNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmNhaCungCap.Designer.cs">
+      <DependentUpon>frmNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trong\frmPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmPhieuNhap.Designer.cs">
+      <DependentUpon>frmPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trong\frmTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trong\frmTaiKhoan.Designer.cs">
+      <DependentUpon>frmTaiKhoan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frm_ChiTietHoaDon.resx">
       <DependentUpon>frm_ChiTietHoaDon.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +155,14 @@
     <EmbeddedResource Include="frm_SanPham.resx">
       <DependentUpon>frm_SanPham.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.frm_ChiTietHoaDon.resources" />
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.frm_HoaDon.resources" />
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.frm_KhachHang.resources" />
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.frm_KhoHang.resources" />
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.frm_LoaiHang.resources" />
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.frm_main.resources" />
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.frm_SanPham.resources" />
+    <EmbeddedResource Include="obj\Debug\SieuThiBHX.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -127,6 +172,32 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Trong\frmChiNhanh.resx">
+      <DependentUpon>frmChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trong\frmChiTietPhieuNhap.resx">
+      <DependentUpon>frmChiTietPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trong\frmKhuyenMai.resx">
+      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trong\frmNhaCungCap.resx">
+      <DependentUpon>frmNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trong\frmPhieuNhap.resx">
+      <DependentUpon>frmPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trong\frmTaiKhoan.resx">
+      <DependentUpon>frmTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".vs\SieuThiBHX.csproj.dtbcache.json" />
+    <None Include="bin\Debug\SieuThiBHX.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\SieuThiBHX.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\SieuThiBHX.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\SieuThiBHX.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\SieuThiBHX.csproj.Up2Date" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -137,9 +208,30 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Trong\.vs\slnx.sqlite" />
+    <None Include="Trong\.vs\Trong\FileContentIndex\0e3b772f-8bf4-4bc3-a719-4a7b3c3fbc52.vsidx" />
+    <None Include="Trong\.vs\Trong\v17\DocumentLayout.json" />
+    <None Include="Trong\.vs\Trong\v17\ResourceExplorer\settings.json" />
+    <None Include="Trong\.vs\VSWorkspaceState.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Guna.UI2.dll" />
+    <Content Include="bin\Debug\SieuThiBHX.exe" />
+    <Content Include="bin\Debug\SieuThiBHX.pdb" />
+    <Content Include="obj\Debug\SieuThiBHX.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\SieuThiBHX.exe" />
+    <Content Include="obj\Debug\SieuThiBHX.pdb" />
+    <Content Include="Resources\bin.png" />
+    <Content Include="Resources\logout.png" />
+    <Content Include="Resources\loop.png" />
+    <Content Include="Resources\plus.png" />
+    <Content Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
