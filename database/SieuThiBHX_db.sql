@@ -307,6 +307,7 @@ CREATE TABLE ChiTietPhieuNhap (
 
 
 ------------DuLieuAo-------------
+DELETE FROM TaiKhoan;
 
 SET IDENTITY_INSERT TaiKhoan ON;
 
@@ -325,29 +326,50 @@ VALUES
     (11, N'TK009', N'TK009', N'123456', 1),
     (12, N'TK010', N'TK010', N'123456', 1);
 
+SET IDENTITY_INSERT TaiKhoan OFF;
 
--- LoaiNhanVien
-INSERT INTO LoaiNhanVien (MaLoaiNhanVien, TenLoaiNhanVien)  
-VALUES  
-('LNV1', N'Nhân viên bán hàng'),  
-('LNV2', N'Nhân viên kho'),  
-('LNV3', N'Quản lý');
 
--- NhaCungCap
+
 INSERT INTO NhaCungCap (MaNhaCungCap, TenNhaCungCap, SoDienThoai, DiaChi) 
 VALUES 
 (N'NCC01', N'LG', N'0123456789', N'23/7 Võ Văn Ngân'),
 (N'NCC02', N'LeNoVo', N'0123456789', N'7/11 Hoàng Diệu 2'),
 (N'NCC03', N'SamSung', N'0123456789', N'50/7 Trần Phú'),
 (N'NCC04', N'Dell', N'0123456789', N'16 Đặng Văn Bi'),
-(N'NCC05', N'CellsPhone', N'0123456789', N'16/3 Võ Nguyên Giáp'),
+(N'NCC05', N'CellsPhone', N'0123456789', N'16/3 Võ Nguên Giáp'),
 (N'NCC06', N'Family Mart', N'0123456789', N'25/16 đường số 25'),
 (N'NCC07', N'GS25', N'0123456789', N'29/16 Hiệp Bình'),
 (N'NCC08', N'Xiaomi', N'0123456789', N'12/3 D2'),
 (N'NCC09', N'Vissan', N'0123456789', N'27 Đường 16'),
 (N'NCC10', N'Sạch', N'0123456789', N'2 Đường 21');
 
+
 -- KhuyenMai
+
+
+-- Thêm dữ liệu vào bảng PhieuNhap
+INSERT INTO PhieuNhap (MaPhieuNhap, NgayNhap, ThanhTien, idNhanVien) VALUES
+('PN001', '01-03-2024 10:00:00', 500000, 1),
+('PN002', '01-03-2024 12:30:00', 750000, 2),
+('PN003', '01-03-2024 15:45:00', 1200000, 3),
+('PN004', '01-03-2024 09:20:00', 950000, 4),
+('PN005', '01-03-2024 14:10:00', 1100000, 5),
+('PN006', '01-03-2024 16:50:00', 870000, 6),
+('PN007', '01-03-2024 18:30:00', 1340000, 6);
+
+-- Thêm dữ liệu vào bảng ChiTietPhieuNhap
+INSERT INTO ChiTietPhieuNhap (SoLuong, DonGia, idPhieuNhap, idSanPham) VALUES
+(10, 50000, 1, 101),
+(5, 100000, 1, 102),
+(8, 75000, 2, 103),
+(12, 60000, 3, 104),
+(20, 55000, 4, 105),
+(15, 65000, 5, 106),
+(25, 70000, 6, 107),
+(18, 80000, 7, 108);
+
+-- Thêm dữ liệu vào bảng KhuyenMai
+
 INSERT INTO KhuyenMai (MaKhuyenMai, TenKhuyenMai, GiaTri) VALUES
 ('KM001', N'Giảm giá 10%', 10),
 ('KM002', N'Giảm giá 20%', 20),
