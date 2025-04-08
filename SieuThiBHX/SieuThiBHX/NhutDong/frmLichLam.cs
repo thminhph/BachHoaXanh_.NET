@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SieuThiBHX
 {
-    public partial class frm_KhoHang : Form
+    public partial class frmLichLam : Form
     {
-        public frm_KhoHang()
+        public frmLichLam()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
