@@ -254,7 +254,7 @@
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.menuToolStrip);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTraCuuNV";
             this.Text = "frmTraCuuNV";
             this.menuToolStrip.ResumeLayout(false);
