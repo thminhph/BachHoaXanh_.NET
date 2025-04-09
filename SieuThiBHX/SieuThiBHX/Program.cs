@@ -1,4 +1,6 @@
-﻿using System;
+
+﻿using SieuThiBHX.Trong;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,6 +19,7 @@ namespace SieuThiBHX
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frm_main());
+            Application.Run(new frmNhaCungCap());
         }
     }
 }
