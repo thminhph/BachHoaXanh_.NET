@@ -5,6 +5,11 @@
       "taskLabel": "task-FileContentIndex",
       "appliesTo": "SieuThiBHX/.vs/SieuThiBHX/FileContentIndex/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-BachHoaXanh_",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }

@@ -139,11 +139,21 @@
           "DockedWidth": 352,
           "SelectedChildIndex": 3,
           "Children": [
+=======
+          "DockedHeight": 272,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+>>>>>>> Dong
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "frm_SanPham.cs [Design]",
@@ -173,40 +183,20 @@
               "Title": "frm_KhachHang.cs [Design]",
               "DocumentMoniker": "C:\\Users\\phamt\\Desktop\\Git\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\frm_KhachHang.cs",
               "RelativeDocumentMoniker": "SieuThiBHX\\frm_KhachHang.cs",
-              "ToolTip": "C:\\Users\\phamt\\Desktop\\Git\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\frm_KhachHang.cs [Design]*",
-              "RelativeToolTip": "SieuThiBHX\\frm_KhachHang.cs [Design]*",
+              "ToolTip": "C:\\Users\\phamt\\Desktop\\Git\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\frm_KhachHang.cs [Design]",
+              "RelativeToolTip": "SieuThiBHX\\frm_KhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T09:01:28.071Z",
-=======
-          "DockedHeight": 272,
-          "SelectedChildIndex": 6,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmBaoCaoBangLuong.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs",
-              "RelativeDocumentMoniker": "SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs [Design]*",
-              "RelativeToolTip": "SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T07:05:07.667Z",
->>>>>>> Dong
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "frm_KhachHang.cs",
               "DocumentMoniker": "C:\\Users\\phamt\\Desktop\\Git\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\frm_KhachHang.cs",
               "RelativeDocumentMoniker": "SieuThiBHX\\frm_KhachHang.cs",
-              "ToolTip": "C:\\Users\\phamt\\Desktop\\Git\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\frm_KhachHang.cs*",
-              "RelativeToolTip": "SieuThiBHX\\frm_KhachHang.cs*",
+              "ToolTip": "C:\\Users\\phamt\\Desktop\\Git\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\frm_KhachHang.cs",
+              "RelativeToolTip": "SieuThiBHX\\frm_KhachHang.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAnwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T10:18:33.916Z",
@@ -309,6 +299,7 @@
               "ToolTip": "C:\\Users\\phamt\\Desktop\\Git\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\frm_main.cs [Design]",
               "RelativeToolTip": "SieuThiBHX\\frm_main.cs [Design]",
 =======
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "frmDangNhap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmDangNhap.cs",
@@ -372,8 +363,8 @@
               "Title": "frmTraCuuNV.cs [Design]",
               "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmTraCuuNV.cs",
               "RelativeDocumentMoniker": "SieuThiBHX\\NhutDong\\frmTraCuuNV.cs",
-              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmTraCuuNV.cs [Design]*",
-              "RelativeToolTip": "SieuThiBHX\\NhutDong\\frmTraCuuNV.cs [Design]*",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmTraCuuNV.cs [Design]",
+              "RelativeToolTip": "SieuThiBHX\\NhutDong\\frmTraCuuNV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T07:01:06.501Z",
               "EditorCaption": " [Design]"
@@ -386,14 +377,22 @@
               "RelativeDocumentMoniker": "SieuThiBHX\\Program.cs",
               "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\Program.cs",
               "RelativeToolTip": "SieuThiBHX\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T03:23:43.114Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmBaoCaoBangLuong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs",
+              "RelativeDocumentMoniker": "SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs",
+              "ToolTip": "C:\\Users\\OS\\OneDrive\\Desktop\\HocTap\\BachHoaXanh_.NET\\SieuThiBHX\\SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs [Design]",
+              "RelativeToolTip": "SieuThiBHX\\NhutDong\\frmBaoCaoBangLuong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:05:07.667Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
